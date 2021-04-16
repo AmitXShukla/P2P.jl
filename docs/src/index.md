@@ -1,18 +1,18 @@
-# TaxAnalytics.jl
+# Buy2Pay.jl
 
-TaxAnalytics Julia package provide a **unified Analytics platform** to support data analytical operations on all sort of Vendor, Use, Freight, Misc Tax Accruals data to address complete Tax data wrangling operations.
+Buy to Pay Julia package provide a **unified Analytics platform** to support data analytical operations on all sort of Accounts Payable, Procurement including Vendor, Use, Freight, Misc Tax Accruals data to address complete Buy to Pay data wrangling operations.
 
 This package will provide a complete Analytic Software package, which can be deployed as a bolt-on or independent application for all data extract, load, transformation, ad-hoc reporting & Analytics, visualizations and tooling to support Data Science, AI, ML predictive Analytics.
 
 This package is intended for small, medium, large and very Big Organizations who require a Big Data Tools which can ELT i.e. Extract very large amount of structured and unstructured data, load data into a uniform platform such as RDBMS, Hadoop Data Lake or non-SQL environment.
 
-!!! info
+!!! note
 
     **Platform:** Oracle OCI, AWS, Google or Microsoft Azure data cloud.
 
     **Analytics:** Power BI, Tableau, Oracle Analytics Cloud or Kibana
 
-    **ELT/ETL:** Ascential Datastage, Informatica, Ab Initio etc.
+    **ELT/ETL:** Ascential Datastage, Iniormatica, Ab Initio etc.
     **Programming/Framework:** Python, Julia, JuliaDB, Pytorch, TensorFlow or Flux
 
 
@@ -24,7 +24,7 @@ This package also show case reporting, visualizations to support real time, live
 
     **Author:** Amit Shukla
 
-    **Last Update Date:** Jan 25, 2021
+    **Last Update Date:** Apr 15 2021
 
     **Who should read this:** small, medium, large ERP Consultants
 
@@ -33,43 +33,44 @@ This package also show case reporting, visualizations to support real time, live
     **Consulting:** info@elishconsulting.com
 
     **Sponsorship:** open for funding
+---
+
+> This project is accepting funding/sponsorship proposals.
+[![GitHub](images/github.png)](https://github.com/AmitXShukla)
+[![YouTube](images/youtube.png)](http://youtube.com/AmitShukla_AI)
+[![Twitter](images/twitter.png)](http://twitter.com/ashuklax)
+[![LinkedIn](images/linkedin.png)](https://www.linkedin.com/in/ashuklax)
+[![Medium](images/medium.png)](https://medium.com/@Amit_Shukla)
 
 ---
 
-Business Process diagram
-
-![Business Process Diagram](images/taxanalytics_business_process.png)
-
-Technical Process Diagram
-
-![Tech Process Diagram](images/taxanalytics_tech_process.png)
-
----
-
-!!! note
-
-    ERP Systems- Oracle, PeopleSoft, SAP, Intuit etc.
-
----
+## Table of Contents
 
 ```@contents
-Pages = ["tax.md", "elt.md", "service.md", "visuals.md", "ds.md", "thesis.md", "features.md", "ml.md"]
-Depth = 3
+Pages = ["index.md"]
+```
+## Tutorials
+
+```@contents
+Pages = [
+	"tutorials/buy2pay.md"
+	"tutorials/approcesses.md"
+	"tutorials/erd.md"
+	"tutorials/installation.md"
+	"tutorials/elt.md"
+	"tutorials/selfservice.md"
+	"tutorials/plots.md"
+	"tutorials/analytic.md"
+	"tutorials/timeseries.md"
+	"tutorials/mlforb2p.md"
+	"tutorials/dlforb2p.md"
+	"tutorials/graph.md"
+]
 ```
 
-**Table of Contents:**
+## Manual/API
 
-- About Taxes
-- ETL or ETL
-- self service data analysis
-- Data Visualization
-- Data Science Operations
-- p-value Null hypothesis tests
-- Feature Engineering
-- ML Models
-- Live Reporting
-- Predictive analytic
+!!! note "ERP Systems"
 
-!!! info ERP Systems
     Oracle, PeopleSoft, SAP, Tally, Intuit, QuickBooks etc.
     I will cover examples from ERP Domains like GL (General Ledger), AP (Accounts Payable), AR (Account Receivables), B2P (Buy to Pay), Expense, Travel & Time, HCM Human Capital Management, CRM etc.

@@ -10,30 +10,22 @@ This package will provide a complete Analytic Software package, which can be dep
 
 This package is intended for small, medium, large and very Big Organizations who require a Big Data Tools which can ELT i.e. Extract very large amount of structured and unstructured data, load data into a uniform platform such as RDBMS, Hadoop Data Lake or non-SQL environment.
 
-    **Platform:** Oracle OCI, AWS, Google or Microsoft Azure data cloud.
-
-    **Analytics:** Power BI, Tableau, Oracle Analytics Cloud or Kibana
-
-    **ELT/ETL:** Ascential Datastage, Informatica, Ab Initio
-
-    **Programming/Framework:** Python, Julia, JuliaDB, Pytorch, TensorFlow or Flux
+    Platform: Oracle OCI, AWS, Google or Microsoft Azure data cloud.
+    Analytics: Power BI, Tableau, Oracle Analytics Cloud or Kibana
+    ELT/ETL: Ascential Datastage, Informatica, Ab Initio
+    Programming/Framework: Python, Julia, JuliaDB, Pytorch, TensorFlow or Flux
 
 
 Further, advance data transformation wrangling techniques can be applied to prepare data for operations reporting, data analytic, advance data visualizations, data science operations including AI, ML for predictions.
 
 This package also show case reporting, visualizations to support real time, live reporting on all mobile, web devices. 
 
-    **Author:** Amit Shukla
-
-    **Last Update Date:** Jan 25, 2021
-
-    **Who should read this:** small, medium, large ERP Consultants
-
-    **Version:** 0.22
-
-    **Consulting:** info@elishconsulting.com
-
-    **Sponsorship:** open for funding
+    Author: Amit Shukla
+    Last Update Date: Jan 25, 2021
+    Who should read this: small, medium, large ERP Consultants
+    Version: 0.22
+    Consulting: info@elishconsulting.com
+    Sponsorship: open for funding
 
 ---
 
@@ -49,16 +41,20 @@ Technical Process Diagram
 
 **Table of Contents:**
 
-- About Taxes
+- About Buy 2 Pay 
+- Buy2Pay Processes
+- Buy2Pay ERD
+- ERD
+- Installing Julia
 - ETL or ETL
 - self service data analysis
 - Data Visualization
-- Data Science Operations
-- p-value Null hypothesis tests
-- Feature Engineering
-- ML Models
-- Live Reporting
-- Predictive analytic
+- Visualizations, Buttons, sliders, filters, n-D plots, plots vs graphs
+- p-value, null hypothesis and real time analytics
+- Time Series, Impact analysis
+- ML for Buy2Pay
+- DL for Buy2Pay
+- Graph Theory / Network Science
 
     **ERP Systems**
     Oracle, PeopleSoft, SAP, Tally, Intuit, QuickBooks etc.
