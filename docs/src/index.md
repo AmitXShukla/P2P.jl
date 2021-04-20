@@ -1,6 +1,6 @@
-# Buy2Pay.jl
+# Procure2Pay.jl
 
-Buy to Pay Julia package provide a **unified Analytics platform** to support data analytical operations on all sort of Accounts Payable, Procurement including Vendor, Use, Freight, Misc Tax Accruals data to address complete Buy to Pay data wrangling operations.
+Procure to Pay Julia package provide a **unified Analytics platform** to support data analytical operations on all sort of Procurement, Accounts Payable, Procurement including Vendor, Use, Freight, Misc Tax Accruals data to address complete Buy to Pay data wrangling operations.
 
 This package will provide a complete Analytic Software package, which can be deployed as a bolt-on or independent application for all data extract, load, transformation, ad-hoc reporting & Analytics, visualizations and tooling to support Data Science, AI, ML predictive Analytics.
 
@@ -13,6 +13,7 @@ This package is intended for small, medium, large and very Big Organizations who
     **Analytics:** Power BI, Tableau, Oracle Analytics Cloud or Kibana
 
     **ELT/ETL:** Ascential Datastage, Iniormatica, Ab Initio etc.
+
     **Programming/Framework:** Python, Julia, JuliaDB, Pytorch, TensorFlow or Flux
 
 
@@ -53,7 +54,7 @@ Pages = ["index.md"]
 
 ```@contents
 Pages = [
-	"tutorials/buy2pay.md"
+	"tutorials/procure2pay.md"
 	"tutorials/approcesses.md"
 	"tutorials/erd.md"
 	"tutorials/installation.md"
@@ -62,8 +63,8 @@ Pages = [
 	"tutorials/plots.md"
 	"tutorials/analytic.md"
 	"tutorials/timeseries.md"
-	"tutorials/mlforb2p.md"
-	"tutorials/dlforb2p.md"
+	"tutorials/mlforp2p.md"
+	"tutorials/dlforp2p.md"
 	"tutorials/graph.md"
 ]
 ```
@@ -71,6 +72,8 @@ Pages = [
 ## Manual/API
 
 !!! note "ERP Systems"
+
+    P2P.jl package supports these ERP systems data structures.
 
     Oracle, PeopleSoft, SAP, Tally, Intuit, QuickBooks etc.
     I will cover examples from ERP Domains like GL (General Ledger), AP (Accounts Payable), AR (Account Receivables), B2P (Buy to Pay), Expense, Travel & Time, HCM Human Capital Management, CRM etc.

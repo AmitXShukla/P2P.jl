@@ -1,10 +1,10 @@
-# Buy2Pay.jl
+# Procure2Pay.jl
 
-[documentation](https://amitxshukla.github.io/Buy2Pay.jl/)
+[documentation](https://amitxshukla.github.io/P2P.jl/)
 
-Buy to Pay julia package provide a **unified Analytics platform** to support data analytical operations on all sort of Accounts Payable business processed including Vendor, Use, Freight, Misc Tax Accruals data.
+Procure to Pay julia package provide a **unified Analytics platform** to support data analytical operations on all sort of Accounts Payable, Procurement business processed including Vendor, Use, Freight, Misc Tax Accruals data.
 
-**Objective:** Buy2Pay package is one complete solution to address complete Accounts Payable data wrangling operations.
+**Objective:** Procure2Pay package is one complete solution to address complete Procurement, Accounts Payable data wrangling operations.
 
 This package will provide a complete Analytic Software package, which can be deployed as a bolt-on or independent application for all data extract, load, transformation, ad-hoc reporting, analytics, visualizations and tooling to support Data Science, AI, ML predictive analytics.
 
@@ -42,8 +42,8 @@ Technical Process Diagram
 **Table of Contents:**
 
 - About Buy 2 Pay 
-- Buy2Pay Processes
-- Buy2Pay ERD
+- Procure2Pay Processes
+- Procure2Pay ERD
 - ERD
 - Installing Julia
 - ETL or ETL
@@ -52,8 +52,8 @@ Technical Process Diagram
 - Visualizations, Buttons, sliders, filters, n-D plots, plots vs graphs
 - p-value, null hypothesis and real time analytics
 - Time Series, Impact analysis
-- ML for Buy2Pay
-- DL for Buy2Pay
+- ML for Procure2Pay
+- DL for Procure2Pay
 - Graph Theory / Network Science
 
     **ERP Systems**
