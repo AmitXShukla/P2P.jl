@@ -41,7 +41,7 @@ Technical Process Diagram
 
 **Table of Contents:**
 
-- About Buy 2 Pay 
+- About Procure 2 Pay 
 - Procure2Pay Processes
 - Procure2Pay ERD
 - ERD
